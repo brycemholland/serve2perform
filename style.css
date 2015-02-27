@@ -56,8 +56,8 @@ input[type="search"]::-webkit-search-results-decoration {
 .search-bar{
 	border: none;
 	font-family:  "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-	font-size: 36px;
-	font-weight: 100;
+	font-size: 24px;
+	font-weight: 300;
 	letter-spacing: 1px;
 	margin: 0 16px;
 	height: 100%;
@@ -101,11 +101,14 @@ input[type="search"]::-webkit-search-results-decoration {
 .welcome{
 	color: #E2782B;
 	font-size: 20px;
+	font-weight: 300;
 }
 .search-banner-account a{
 	align-items: center;
+	border-radius: 2px;
 	display: flex;
 	justify-content: space-arround;
+	margin-top: 8px;
 	padding: 8px;
 	width: 70px;
 }
@@ -148,12 +151,14 @@ input[type="search"]::-webkit-search-results-decoration {
 	box-sizing: border-box;
 	display: block;
 	font-size: 24px;
+	font-weight: 300;
 	height: 100%;
 	min-width: 70px;
 	max-width: 200px;
 	padding: 16px;
 	text-align: center;
 	cursor: pointer;
+	-webkit-transition: 0.25s;
 }
 .nav-button:hover{
 	background-color: #196131;
@@ -201,6 +206,7 @@ input[type="search"]::-webkit-search-results-decoration {
 	border-bottom: 1px #616161 solid;
 	display: flex;
 	text-decoration: none;
+	-webkit-transition: 0.25s;
 }
 .menu a:hover{
 	background-color: #555;
@@ -383,6 +389,7 @@ input[type="search"]::-webkit-search-results-decoration {
 	z-index: -10;
 }
 .add-file-button{
+	border-radius: 2px;
 	box-sizing: border-box;
 	cursor: pointer;
 	height: 46px;
@@ -457,14 +464,19 @@ input[type="search"]::-webkit-search-results-decoration {
 	color: #2C9A47;
 	font-size: 20px;
 	height: 70px;
-	padding: 10px 16px;
+	padding: 24px 16px;
 	text-align: center;
+}
+.insight .two-line{
+	padding-top: 10px;
 }
 .insight-description{
 	border-bottom: 1px #BCBCBC solid;
 	border-top: 1px #BCBCBC solid;
+	font-size: 16px;
 	height: 170px;
-	padding: 16px;
+	overflow: hidden;
+	padding: 8px 16px 16px;
 }
 .insight-bottom{
 	display: flex;
@@ -484,6 +496,7 @@ input[type="search"]::-webkit-search-results-decoration {
 	color: #2C9A47;
 	font-size: 20px;
 	font-weight: 300;
+	-webkit-transition: 0.25s;
 }
 .insight-view-button:hover{
 	background-color: #2C9A47;
@@ -505,7 +518,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .footer{
 	background-color: #393939;
-	height: 48px;
+	height: 36px;
 	padding: 16px;
 }
 .i-footer{
